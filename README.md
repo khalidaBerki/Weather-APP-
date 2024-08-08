@@ -41,9 +41,9 @@ VITE_APP_ID="your Api key"
 
 4. Démarrez l'application :
 
-npm start
+npm dev
 ou
-yarn start
+yarn dev
 
 Technologie :
 Cette application utilise Vite pour le développement. Plutôt que de récupérer l’ensemble des éléments d’un projet et d’en construire un bundle, Vite se sert de la force des EcmaScript Modules (ESM) pour construire de manière dynamique, uniquement les ressources nécessaires à un temps donné. En résumé, si vous voulez afficher une page, uniquement les composants de cette page seront chargés. C’est ce que l’on appelle du “code splitting”.
